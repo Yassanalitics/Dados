@@ -17,3 +17,4 @@ c= "bcdfghjklmnpqrstvwx"
 e = "\x20\x0A"
 #sys.stdout.write(c[11]+v[5]+e[0]+c[1]+v[3]+c[2]+v[1])
 sys.stdout.write(v[5]+v[0]+c[14]+c[9]+v[2]+c[10])
+

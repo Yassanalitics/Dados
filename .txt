@@ -1,0 +1,7 @@
+python mat.py -proc 7
+python mat.py -menores 7
+python mat.py -maiores 7
+python mat.py -pares
+python mat.py -pi
+python mat.py -somai
+python mat.py -maior

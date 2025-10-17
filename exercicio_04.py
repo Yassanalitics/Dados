@@ -1,8 +1,35 @@
+#versão básica 
 import sys
 import array
 
-Array = array.array('q', [2,4,6,7,8,10,11])  
+"""Array = array.array('i', [2, 4, 5, 6, 7, 8, 10, 11])
+n = 7
+if n in Array:
+    sys.stdout.write("Valor encontrado: " + str(n) + "\n")
+else:
+    sys.stdout.write("Valor não encontrado no arranjo.\n")"""
 
-sys.stdout.write( str(Array) )
-sys.stdout.write( "\n" )
-sys.stdout.write( str(Array[3]) )
+#versão 2
+"""
+Array = array.array('i', [2, 4, 5, 6, 7, 8, 10, 11])
+
+if len(sys.argv) < 2:
+    sys.stdout.write("Use: python script.py <valor>\n")
+    sys.exit(1)
+
+n = int(sys.argv[1])  #n numnero procurado
+
+if n in valores:
+       sys.stdout.write("Encontrado.\n"
+ else: 
+      sys.stdout.write("Valor não encontrado.\n")
+"""
+#versão3
+"""
+valores = array.array('i', [2, 4, 5, 6, 7, 8, 10, 11])
+n = 7  
+if n in valores:
+    pos = valores.index(n)
+    sys.stdout.write(f"Encontrado na posição {pos}\n")
+else:
+    sys.stdout.write("Valor não encontrado\n")"""
