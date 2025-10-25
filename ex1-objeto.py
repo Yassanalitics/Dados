@@ -1,9 +1,10 @@
 import sys 
 
 class Arquivo:
- nome = "none"
- extensao = "none"
- tamanho = 0
+ nome = "none" #string
+ extensao = "none" #string
+ tamanho = 0 #float
+ dataCriação = 0 #string
 
 a1 = Arquivo ()
 a1.nome = "Instrucao"
@@ -17,8 +18,3 @@ def describe(Arquivo):
 describe(Arquivo)
 
 
-"""class pagina:
-    nome = "none"
-    extensao = "none "
-    """
-    
