@@ -18,10 +18,7 @@ obj.dataCriacao = "10/05/2025"
 
 
 Então:
-
 foto.jpg   2.1 KB   10/05/2025
-
-
 foto.jpg ← concatenação com .
 
 \t → tabulação
@@ -31,3 +28,6 @@ foto.jpg ← concatenação com .
 \t → mais tabulação
 
 \n → quebra de linha no final
+
+
+o init tem dois underlines __init__

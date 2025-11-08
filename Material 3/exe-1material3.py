@@ -49,9 +49,9 @@ describek(a2)
 describek(a3)
 describek(a4)
 
-#com print 
+#com print e usando o construtor personalizado
 class Arquivo:
-    def __init__(self, nome, extensao, tamanho, data_criacao):
+    def __init__(self, nome, extensao, tamanho ):
         self.nome = nome
         self.extensao = extensao
         self.tamanho = tamanho     
@@ -64,10 +64,10 @@ class Arquivo:
         kb = self.tamanho / 1024
         print(f"{self.nome}.{self.extensao}\t{kb:.1f} KB")
 
-arq1 = Arquivo("CNPJ_20250923", "pdf", 61600, "23/09/2025")
-arq2 = Arquivo("Instrução", "txt", 3900, "12/08/2025")
-arq3 = Arquivo("pagina", "html", 363, "06/09/2025")
-arq4 = Arquivo("PDFRascunho", "pdf", 5400, "25/09/2025")
+arq1 = Arquivo("CNPJ_20250923", "pdf", 61600)
+arq2 = Arquivo("Instrução", "txt", 3900)
+arq3 = Arquivo("pagina", "html", 363)
+arq4 = Arquivo("PDFRascunho", "pdf", 5400)
 
 lista = [arq1, arq2, arq3, arq4]
 
